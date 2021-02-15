@@ -17,7 +17,7 @@ mongoose.connect('mongodb+srv://hshs:1234@boilerplate.fndve.mongodb.net/<dbname>
   .catch(err => console.log(err))
 
 app.get('/', (req, res) => {
-  res.send('Hello World!<br>I\'m Hs_hs')
+  res.send('Hello World!<br>I\'m Hs_hs<br>붕방이에요')
 })
 
 
